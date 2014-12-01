@@ -72,7 +72,7 @@ void Tri::set_tri(Point p1,Point p2,Point p3){
       float Atotal=t1.area()+t2.area()+t3.area();
       float atri=t0.area();
 
-      if(abs(Atotal-atri)>tol) 
+      if(fabs(Atotal-atri)>tol) 
 	{cout<<"Point is outside the triangle."<<endl;}
       else
 	{
