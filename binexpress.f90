@@ -28,7 +28,7 @@ print*, c(:)
 end program
 
 !using python
-! A=1023
+! A = int(raw_input("enter a int:"))
 ! a=bin(A)
 ! a.count('1')
 ! a.count('0')-1
