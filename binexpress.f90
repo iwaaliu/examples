@@ -26,3 +26,9 @@ enddo
 print*, "we have ",ja, " 1's in this binary expression."
 print*, c(:)
 end program
+
+!using python
+! A=1023
+! a=bin(A)
+! a.count('1')
+! a.count('0')-1
