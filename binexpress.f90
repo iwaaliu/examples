@@ -23,6 +23,6 @@ a=a/2
 j=j+1
 enddo
 
-print*, "we have ",ja, "1 in this binary expression."
+print*, "we have ",ja, " 1's in this binary expression."
 print*, c(:)
 end program
