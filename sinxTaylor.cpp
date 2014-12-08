@@ -25,7 +25,7 @@ int main()
   float x, y;
   cout<<"Please input your x (x is small and close to 0), and n (Taylor expansion order)"<<endl;
   cin>>x>>n;
-  cout<<"The resulttaylor expansion of sin(x) for  "<<n<<"order"<<"at"<<x<<":"<<endl;
+  cout<<"The resulttaylor expansion of sin(x) for  "<<n<<" order "<<" at "<<x<<":"<<endl;
   y=sinx(x,n);
   cout<<"sin(x)="<<y<<endl;
   return 0;
