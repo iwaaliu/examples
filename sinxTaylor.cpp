@@ -12,7 +12,7 @@ float sinx(float x,int n)
       sin=0.;
      for (int i=1;i<=n;i=i+2)
        {
-         float fac=(i-1.0)*i;
+         float fac=fac*(i-1.0)*i;
          if(i==1) fac=1.;
          sin=sin+pow(-1,i/2)*pow(x,i)/fac;}
    }
