@@ -27,6 +27,6 @@ int main()
   cin>>x>>n;
   cout<<"The resulttaylor expansion of sin(x) for  "<<n<<"order"<<"at"<<x<<":"<<endl;
   y=sinx(x,n);
-  cout<<y<<endl;
+  cout<<"sin(x)="<<y<<endl;
   return 0;
 }
